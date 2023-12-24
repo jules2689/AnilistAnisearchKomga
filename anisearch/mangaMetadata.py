@@ -2,9 +2,9 @@ import requests, json, time, sys, signal
 
 from playwright.sync_api import sync_playwright
 
-import utils
-import anilist
-import anisearch
+from utils import *
+from anilist import *
+from anisearch import *
 
 komgaurl, komgaemail, komgapassword, anisearchlang, mangas, activateAnilistSync, anilistClientId, anilistSecret, anilistUsername, libraries = getEnvVars()
 
