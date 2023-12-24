@@ -1,6 +1,7 @@
 FROM mcr.microsoft.com/playwright:v1.40.0-jammy
 
 RUN useradd -ms /bin/bash crawler
+RUN apt-get -y install python3-pip
 
 USER crawler
 
