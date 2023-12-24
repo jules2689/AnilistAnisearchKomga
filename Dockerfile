@@ -13,4 +13,4 @@ RUN pip3 install -r requirements.txt
 COPY mangaMetadata.py .
 
 
-CMD ["python3", "mangaMetadata.py"]
+CMD ["python3", "anisearch/mangaMetadata.py"]
