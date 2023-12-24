@@ -13,4 +13,4 @@ RUN pip3 install -r requirements.txt
 COPY mangaMetadata.py .
 
 
-CMD ["python3", "-m", "-u", "mangaMetadata.py"]
+CMD ["python3", "-u", "-m", "mangaMetadata.py"]
